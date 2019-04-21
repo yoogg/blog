@@ -11,7 +11,10 @@
             </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div>
+<link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
 
+<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -23,11 +26,9 @@
                     <a href="{{ site.baseurl }}/apps/">应用</a>
                 </li>
 
-                <li>
-                    <a href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">开源</a>
-                </li>
-
-
+            <!--<li>
+                    <a href="{{ site.baseurl }}/open/">开源</a>
+                </li> -->
 
                 <li>
                     <a href="{{ site.baseurl }}/tags/">标签</a>
