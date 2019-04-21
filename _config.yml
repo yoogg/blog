@@ -1,15 +1,17 @@
 ######################站点全局信息，需要部分修改#########################
 # Site settings
-title: "娄永坤 lyk blog" 
+title: "lyk blog" 
+SEOTitle: 娄永坤的博客 | LYK Blog
 header-img: "img/home-bg.jpg"
 email: "lyk@go28.cn"
 url: "http://lykqq.com"
 description: "编码生涯的点点滴滴"
+keyword: "LYK, LYK Blog, 娄永坤的博客, louyongkun, 娄永坤, lykqq, Windows, office"
 github_username:  "123"
 zhihu_username: "123"
 
-changyan_appid: "'changyan_appid'"
-changyan_conf: "'changyan_conf'"
+changyan_appid: "'123'"
+changyan_conf: "'1231'"
 ##########################上述信息需要您修改,changyan_appid、changyan_conf############################
 
 
