@@ -13,7 +13,7 @@ tags:
 
 ## 前言
 
-经过一段时间的研究，终于找到了一个简单经济搭建个人博客的方案😅，就是用GitHub Pages搭建博客，首先感谢[codeboy.me](https://www.codeboy.me)的网站模板，该项目的[GitHub](https://github.com/androiddevelop/CodeboyBlog)地址：`https://github.com/androiddevelop/CodeboyBlog`
+经过一段时间的研究，终于找到了一个简单经济搭建个人博客的方案😅，就是用GitHub Pages搭建博客，首先感谢[codeboy.me](https://www.codeboy.me)的网站模板，该项目的[GitHub地址](https://github.com/androiddevelop/CodeboyBlog)
 
 ## 正文
 
