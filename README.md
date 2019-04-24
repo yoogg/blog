@@ -8,7 +8,7 @@ CodeboyBlog
 - jekyll-search [https://github.com/androiddevelop/jekyll-search](https://github.com/androiddevelop/jekyll-search)
 - hexo-search [https://github.com/androiddevelop/hexo-search](https://github.com/androiddevelop/hexo-search)
 
-![网站截图](codeboy.me.png)
+
 
 本工程实时预览地址 [blogtest.codeboy.me](http://blogtest.codeboy.me)
 
