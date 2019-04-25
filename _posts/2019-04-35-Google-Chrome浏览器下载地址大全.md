@@ -109,7 +109,9 @@ Fedora/OpenSUSE 64-bit Bata版:
 Fedora/OpenSUSE 64-bit DEV版:
 [https://www.google.com/chrome/browser/?platform=linux&extra=devchannel](https://www.google.com/chrome/browser/?platform=linux&extra=devchannel)
 
-Chromium下载地址：[http:///chromium-browser-continuous/index.html](http:///chromium-browser-continuous/index.html)
+Chromium下载地址：[https://download-chromium.appspot.com/](https://download-chromium.appspot.com/)
+
+
 
 
 > 如有任何知识产权.版权问题或理论错误，还请指正。
