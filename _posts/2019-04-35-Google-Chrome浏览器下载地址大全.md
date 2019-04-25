@@ -29,7 +29,7 @@ Google中国下载 ​[https://www.google.cn/chrome/browser/desktop/index.html?s
 
 谷歌备用下载地址：[https://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html?standalone=1](https://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html?standalone=1)
 
-- **Windows 平台 32 位版本：**
+**Windows 平台 32 位版本：**
 
 Stable正式版：
 [https://www.google.com/chrome/browser/](https://www.google.com/chrome/browser/)
@@ -43,7 +43,7 @@ DEV开发版：
 Canary金丝雀版：
 [http://www.google.com/chrome/browser/canary.html?platform=win](http://www.google.com/chrome/browser/canary.html?platform=win)
 
-- **Windows 平台 64 位版本：**
+**Windows 平台 64 位版本：**
 
 Stable正式版：
 [https://www.google.com/chrome/browser/?platform=win64](https://www.google.com/chrome/browser/?platform=win64)
@@ -57,12 +57,12 @@ DEV开发版：
 Canary金丝雀版：
 [http://www.google.com/chrome/browser/canary.html?platform=win64](http://www.google.com/chrome/browser/canary.html?platform=win64)
 
-- **Windows 平台32位离线安装包：**
+**Windows 平台32位离线安装包：**
 
 Stable正式版：
 [https://www.google.com/chrome/browser/desktop/index.html?standalone=1&system=true&platform=win](https://www.google.com/chrome/browser/desktop/index.html?standalone=1&system=true&platform=win)
 
-- **Windows 64位离线安装包：**
+**Windows 64位离线安装包：**
 
 Stable正式版：
 [https://www.google.com/chrome/browser/desktop/index.html?standalone=1&system=true&platform=win64](https://www.google.com/chrome/browser/desktop/index.html?standalone=1&system=true&platform=win64)
