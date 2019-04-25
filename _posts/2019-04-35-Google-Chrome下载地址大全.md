@@ -12,12 +12,12 @@ author: 'lyk'
 ## 离线包下载站
 
 | 推荐站点                 | 下载地址 |
-| ---------------- | ------------------------------------------------- |
+| --------------- | --------------------------- |
 | 最新Chrome离线包一键下载 | [https://go28.cn/api/chrome](https://go28.cn/api/chrome)     |
 | METO-Chrome 离线包下载   | [https://api.i-meto.com/chrome.page](https://api.i-meto.com/chrome.page) |
 | Shuax-Chrome离线包下载   | [https://tools.shuax.com/chrome/](https://tools.shuax.com/chrome/#/) |
 
-最新网盘下载地址：[https://pc.cd/IiK7](https://pc.cd/IiK7)
+最新网盘下载地址：[https://go28.cn/chrome](https://go28.cn/chrome)
 
 ## Windows平台：
 
@@ -33,27 +33,27 @@ Google中国下载 ​[https://www.google.cn/chrome/browser/desktop/index.html?s
 
 Stable正式版：
 [https://www.google.com/chrome/browser/](https://www.google.com/chrome/browser/)
-Bata
-测试版：
+
+Bata测试版：
 [https://www.google.com/chrome/browser/beta.html?platform=win](https://www.google.com/chrome/browser/beta.html?platform=win)
-DEV
-开发版：
+
+DEV开发版：
 [https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win](https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win)
-Canary
-金丝雀版：
+
+Canary金丝雀版：
 [http://www.google.com/chrome/browser/canary.html?platform=win](http://www.google.com/chrome/browser/canary.html?platform=win)
 2.Windows 平台 64 位版本：
 
 Stable正式版：
 [https://www.google.com/chrome/browser/?platform=win64](https://www.google.com/chrome/browser/?platform=win64)
-Bata
-测试版：
+
+Bata测试版：
 [https://www.google.com/chrome/browser/beta.html?platform=win64](https://www.google.com/chrome/browser/beta.html?platform=win64)
-DEV
-开发版：
+
+DEV开发版：
 [https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win64](https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win64)
-Canary
-金丝雀版：
+
+Canary金丝雀版：
 [http://www.google.com/chrome/browser/canary.html?platform=win64](http://www.google.com/chrome/browser/canary.html?platform=win64)
 3.Windows 平台32位离线安装包：
 
@@ -69,35 +69,44 @@ Stable正式版：
  Stable正式版：
 
 [https://www.google.com/chrome/browser/?platform=mac](https://www.google.com/chrome/browser/?platform=mac)
-Bata
-测试版：
+
+Bata测试版：
 [https://www.google.com/chrome/browser/beta.html?platform=mac&extra=betachannel](https://www.google.com/chrome/browser/beta.html?platform=mac&extra=betachannel)
-DEV
-开发版：
+
+DEV开发版：
 [https://www.google.com/chrome/browser/?platform=mac&extra=devchannel](https://www.google.com/chrome/browser/?platform=mac&extra=devchannel)
-Canary
-金丝雀版：
+
+Canary金丝雀版：
 [http://www.google.com/chrome/browser/canary.html?platform=mac](http://www.google.com/chrome/browser/canary.html?platform=mac)
 ## Linux平台：
 
 Stable正式版：
 [https://www.google.com/chrome/browser/?platform=linux](https://www.google.com/chrome/browser/?platform=linux)
+
 Ubuntu/Debian 32-bit Bata 版:
 [https://www.google.com/chrome/browser/beta.html?platform=linux](https://www.google.com/chrome/browser/beta.html?platform=linux)
+
 Ubuntu/Debian 32-bit DEV 版:
 [https://www.google.com/chrome/browser/?platform=linux&extra=devchannel](https://www.google.com/chrome/browser/?platform=linux&extra=devchannel)
+
 Ubuntu/Debian 64-bit Bata 版:
 [https://www.google.com/chrome/browser/beta.html?platform=linux](https://www.google.com/chrome/browser/beta.html?platform=linux)
+
 Ubuntu/Debian 64-bit DEV 版:
 [https://www.google.com/chrome/browser/?platform=linux&extra=devchannel](https://www.google.com/chrome/browser/?platform=linux&extra=devchannel)
+
 Fedora/OpenSUSE 32-bit Bata 版:
  [https://www.google.com/chrome/browser/beta.html?platform=linux](https://www.google.com/chrome/browser/beta.html?platform=linux)
+
 Fedora/OpenSUSE 32-bit DEV版:
 [https://www.google.com/chrome/browser/?platform=linux&extra=devchannel](https://www.google.com/chrome/browser/?platform=linux&extra=devchannel)
+
 Fedora/OpenSUSE 64-bit Bata版:
 [https://www.google.com/chrome/browser/beta.html?platform=linux](https://www.google.com/chrome/browser/beta.html?platform=linux)
+
 Fedora/OpenSUSE 64-bit DEV版:
 [https://www.google.com/chrome/browser/?platform=linux&extra=devchannel](https://www.google.com/chrome/browser/?platform=linux&extra=devchannel)
+
 Chromium下载地址：[http:///chromium-browser-continuous/index.html](http:///chromium-browser-continuous/index.html)
 
 
