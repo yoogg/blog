@@ -3,9 +3,8 @@ layout: post
 title: 'Google Chrome官方最新下载地址'
 date: '2019-04-25'
 tags:
-     - Chrome
-     - Google
-author: 'lyk'
+     - GitNote
+author: 'zhaopeng'
 ---
 
 GitNote 基于 Git 的跨平台笔记软件
