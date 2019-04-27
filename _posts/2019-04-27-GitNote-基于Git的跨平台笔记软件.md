@@ -30,6 +30,7 @@ git 是一个很棒的工具,GitNote 支持 git 的全部特性,并且不依赖�
 [https://gitlab.com/](https://gitlab.com/) 免费版支持私有仓库
 
 [https://gitee.com/](https://gitee.com/) 免费版支持私有仓库(推荐)
+
 [https://coding.net/](https://coding.net/) 免费版支持私有仓库
 还有很多
 
