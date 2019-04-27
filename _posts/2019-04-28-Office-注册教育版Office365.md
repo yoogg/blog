@@ -1,13 +1,14 @@
 ---
 layout: post
-title: '费注册微软Office365教育版OneDrive网盘5t空间'
+title: '免费注册微软Office365教育版OneDrive网盘5t空间'
 date: '2019-04-27'
 tags:
-     - GitNote
-author: 'zhaopeng'
+     - Office
+     - Onedrive
+author: 'lyk'
 ---
 
-# 免费注册微软Office教育版OneDrive网盘5t空间
+# 免费注册微软Office教育版
 
 OneDrive是微软的网盘业务，个人版免费只有5GB，注册office365可以获得1TB的空间，但是网页版目前处于被ban的状态。office365教育版和企业版是OneDrive business服务器，不受国内影响。此网盘是教育版！容量5TB，电信宽带测试下载速度跑满，首先需要一个可以验证教育资格的临时邮箱（国内外高校几乎都有edu邮箱也是可以直接申请的哦）
 
