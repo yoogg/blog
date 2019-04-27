@@ -1,1 +1,40 @@
-<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-c6a37a2a-2d21-4991-9432-298aa777231c"></attachment><p>---layout: pagedescription: "欢迎访问娄永坤的博客"---</p><p>{% for post in paginator.posts %}&lt;<span style="color: rgb(34, 134, 58);">div</span> <span style="color: rgb(111, 66, 193);">class</span>=<span style="color: rgb(3, 47, 98);">"post-preview"</span>&gt;    &lt;<span style="color: rgb(34, 134, 58);">a</span> <span style="color: rgb(111, 66, 193);">href</span>=<span style="color: rgb(3, 47, 98);">"{{ post.url | prepend: site.baseurl }}"</span>&gt;        &lt;<span style="color: rgb(34, 134, 58);">h2</span> <span style="color: rgb(111, 66, 193);">class</span>=<span style="color: rgb(3, 47, 98);">"post-title"</span>&gt;            {{ post.title }}        &lt;/<span style="color: rgb(34, 134, 58);">h2</span>&gt;        {% if post.subtitle %}        &lt;<span style="color: rgb(34, 134, 58);">h3</span> <span style="color: rgb(111, 66, 193);">class</span>=<span style="color: rgb(3, 47, 98);">"post-subtitle"</span>&gt;            {{ post.subtitle }}        &lt;/<span style="color: rgb(34, 134, 58);">h3</span>&gt;        {% endif %}        &lt;<span style="color: rgb(34, 134, 58);">div</span> <span style="color: rgb(111, 66, 193);">class</span>=<span style="color: rgb(3, 47, 98);">"post-content-preview"</span>&gt;            {{ post.content | strip_html | truncate:200 }}        &lt;/<span style="color: rgb(34, 134, 58);">div</span>&gt;    &lt;/<span style="color: rgb(34, 134, 58);">a</span>&gt;    &lt;<span style="color: rgb(34, 134, 58);">p</span> <span style="color: rgb(111, 66, 193);">class</span>=<span style="color: rgb(3, 47, 98);">"post-meta"</span>&gt;Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}&lt;/<span style="color: rgb(34, 134, 58);">p</span>&gt;        &lt;/<span style="color: rgb(34, 134, 58);">div</span>&gt;&lt;<span style="color: rgb(34, 134, 58);">hr</span>&gt;{% endfor %}</p><p><span style="color: rgb(106, 115, 125);">&lt;!-- Pager --&gt;</span>{% if paginator.total<em>pages &gt; 1 %}&lt;ul class="pager"&gt;    {% if paginator.previous</em>page %}    &lt;<span style="color: rgb(34, 134, 58);">li</span> <span style="color: rgb(111, 66, 193);">class</span>=<span style="color: rgb(3, 47, 98);">"previous"</span>&gt;        &lt;<span style="color: rgb(34, 134, 58);">a</span> <span style="color: rgb(111, 66, 193);">href</span>=<span style="color: rgb(3, 47, 98);">"{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"</span>&gt;<span style="color: rgb(0, 92, 197);">&amp;</span><span style="color: rgb(111, 66, 193);">larr</span><span style="color: rgb(0, 92, 197);">;</span> Newer Posts&lt;/<span style="color: rgb(34, 134, 58);">a</span>&gt;    &lt;/<span style="color: rgb(34, 134, 58);">li</span>&gt;    {% endif %}    {% if paginator.next_page %}    &lt;<span style="color: rgb(34, 134, 58);">li</span> <span style="color: rgb(111, 66, 193);">class</span>=<span style="color: rgb(3, 47, 98);">"next"</span>&gt;        &lt;<span style="color: rgb(34, 134, 58);">a</span> <span style="color: rgb(111, 66, 193);">href</span>=<span style="color: rgb(3, 47, 98);">"{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"</span>&gt;Older Posts <span style="color: rgb(0, 92, 197);">&amp;</span><span style="color: rgb(111, 66, 193);">rarr</span><span style="color: rgb(0, 92, 197);">;</span>&lt;/<span style="color: rgb(34, 134, 58);">a</span>&gt;    &lt;/<span style="color: rgb(34, 134, 58);">li</span>&gt;    {% endif %}&lt;/<span style="color: rgb(34, 134, 58);">ul</span>&gt;{% endif %}</p><p><br></p>
+---
+layout: page
+description: "欢迎访问娄永坤的博客"
+---
+
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+        
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
