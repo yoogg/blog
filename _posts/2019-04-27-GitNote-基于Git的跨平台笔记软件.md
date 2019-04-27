@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Google Chrome官方最新下载地址'
-date: '2019-04-25'
+title: 'GitNote 基于 Git 的跨平台笔记软件'
+date: '2019-04-27'
 tags:
      - GitNote
 author: 'zhaopeng'
