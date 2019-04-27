@@ -6,7 +6,7 @@ tags:
      - GitNote
 author: 'zhaopeng'
 ---
-
+![20190427150304github.png](0)
 GitNote 基于 Git 的跨平台笔记软件
 
 git 同步
