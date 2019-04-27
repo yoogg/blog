@@ -87,7 +87,7 @@ revealjs.png
 upload.png
 
 官网地址:
-https://gitnoteapp.com/
+[https://gitnoteapp.com/](https://gitnoteapp.com/)
 
 下载地址:
 https://gitnoteapp.com/zh/#download
