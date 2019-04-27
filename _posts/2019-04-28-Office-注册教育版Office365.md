@@ -6,7 +6,7 @@ OneDrive是微软的网盘业务，个人版免费只有5GB，注册office365可
 
 ### 临时邮箱
 
-------
+-----
 
 >  2019/4/25更新可用，随时失效
 
@@ -17,7 +17,7 @@ OneDrive是微软的网盘业务，个人版免费只有5GB，注册office365可
 点击右上角会给你分配一个临时邮箱 ，可以自定义前缀复制好邮箱地址（注意不要关闭临时邮箱页面）
 
 ### 注册教程
-
+-----
 注册地址
 
 [https://signup.microsoft.com/signup?sku=Education](https://signup.microsoft.com/signup?sku=Education)
