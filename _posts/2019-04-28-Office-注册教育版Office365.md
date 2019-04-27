@@ -8,9 +8,8 @@ OneDrive是微软的网盘业务，个人版免费只有5GB，注册office365可
 
 -----
 
->  2019/4/25更新可用，随时失效
 
-[https://t.odmail.cn/](https://t.odmail.cn/) （可以用临时邮箱重置密码，不安全）
+[https://t.odmail.cn/](https://t.odmail.cn/) （2019/4/25更新可用，随时可能失效）
 
 ![](https://up.go28.cn/pimg/office365a.png!960)
 
