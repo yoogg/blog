@@ -1,1 +1,62 @@
-<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-88a7adf6-45c9-409c-9836-f49211fc05f3"></attachment><h1>--- title: Tags layout: default header-img: "img/tags-bg.jpg" --- {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1><p>{{ page.description }}</p><p>{% for tag in site.tags %} <a href="about:blank" target="_blank">{{ tag[0] }}</a> {% endfor %}</p><p><br></p><blockquote>标签命名规则：</blockquote><blockquote>一篇文章相关的领域都将打上标签</blockquote><blockquote>每个便签下含有所有包含此标签的文章</blockquote><p> {% for tag in site.tags %}</p><p>{{ tag[0] }} {% for post in tag[1] %}</p><h2><a href="about:blank" target="_blank">{{ post.title }}</a></h2><p><a href="about:blank" target="_blank">{% if post.subtitle %}</a></p><h3><a href="about:blank" target="_blank">{{ post.subtitle }}</a></h3><p><a href="about:blank" target="_blank">{% endif %} </a>{{ post.date | date:"%Y-%m-%d" }}</p><hr><p> {% endfor %}</p><p>{% endfor %}</p><p><br></p>
+---
+title: Tags
+layout: default
+header-img: "img/tags-bg.jpg"
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 标签云 -->
+			<div id='tag_cloud' class="tags">
+				{% for tag in site.tags %}
+				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+				{% endfor %}
+			</div>
+            
+            <blockquote class="tag-comments">
+                标签命名规则：
+                    <li>一篇文章相关的领域都将打上标签</li>
+                    <li>每个便签下含有所有包含此标签的文章</li>
+            </blockquote>
+            
+            <!-- 标签列表 -->
+			{% for tag in site.tags %}
+			<div class="one-tag-list">
+			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</span>
+				{% for post in tag[1] %}
+				 <div class="post-preview">
+				    <a href="{{ post.url | prepend: site.baseurl }}">
+				        <h2 class="post-title">            {{ post.title }}
+				        </h2>
+				        {% if post.subtitle %}
+				        <h3 class="post-subtitle">
+				            {{ post.subtitle }}
+				        </h3>
+				        {% endif %}
+				    </a>
+				    <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p>
+				</div>
+				<hr>
+				{% endfor %}
+			</div>
+			{% endfor %}
+
+		</div>
+	</div>
+</div>
